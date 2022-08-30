@@ -3,7 +3,8 @@
 
 I have build a template of HTML,CSS using my core css skills
 
-My Live deployed website Link:-[Wbsite](https://effortless-pasca-31aab5.netlify.app)
+#### It took me 2 hours to do the project
+My Live deployed website Link:-[Wbsite](https://unrivaled-cat-45b1f4.netlify.app)
 ![download (3)](https://user-images.githubusercontent.com/101961231/181908554-23854014-4f1b-464c-8539-a2f9bea82cb2.png)
 ### What I have Learned in this Project
 1.In this project I have learned how to use HTML and CSS for building beutiful template.  

@@ -11,11 +11,16 @@ body{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
+/* .navbar{
+    flex-wrap: wrap;
+} */
 .list{
     display: flex;
     flex-direction: row;
     margin-top: 5px;
+    flex-wrap: wrap;
 }
 .list-item{
     list-style-type: none;
@@ -35,6 +40,7 @@ font-family: Orbitron;
 .hero-container{
     display: flex;
     flex-direction: row;
+    
 }
 .square{
     margin-top: 200px;
@@ -77,6 +83,10 @@ font-family: Orbitron;
 .hero-container-right{
     margin-top: 120px;
     margin-left: 200px;
+    flex-wrap: wrap;
+}
+.hero-container{
+    flex-wrap: wrap;
 }
 .hero-heading{
     text-align: center;
@@ -117,8 +127,104 @@ font-family: Orbitron;
 .icons{
     margin-top: 20px;
     margin-left: 150px;
+    flex-wrap: wrap;
 }
 span>img{
     margin: 0px 10px;
 }
- 
+ .container{
+    flex-wrap: wrap;
+ }
+ /* .img1{
+    width: 230px;
+    height:400px;
+      position: absolute;
+       top: 110px;
+       left: 70px;
+ } */
+ .img1>.img2{
+    width: 270px;
+    height:350px;
+      position: absolute;
+       top: 160px;
+       left: 120px;
+ }
+
+ @media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-container{
+        margin-left: 30px;
+    }
+    .list-item{
+        font-size: 10px;
+    }
+    .nav-button{
+        font-size: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+    margin-left: 5px;
+    }
+   
+    .img1{
+        position: absolute;
+     top: 140px;
+     left: 10px;
+     height: 50%;
+     width: 50%;
+    }
+    .img1>.img2{
+        position: absolute;
+        left: 35px;
+        height: 200px;
+        width:180px;
+    }
+    .square{
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+    .square>img{
+        height: 200px;
+        width: 170px;
+    }
+    .hero-heading{
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .hero-description{
+        font-size: 12px;
+        margin-top: 50px;
+        margin-right: 100px;
+        color: #758283;
+    
+    }
+    .hero-container-right{
+        margin-top: 120px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+    }
+    .button-email{
+        margin-left: 0px;
+    }
+    .contact-heading{
+        margin-left: 0px;
+    }
+    .icons{
+        margin-left: 0px;
+     
+    }
+    span>img{
+        margin: 0px;
+    }
+    .star{
+        display: none;
+    }
+    .globe{
+        display: none;
+    }
+    .star1{
+        display: none;
+    }
+ }
